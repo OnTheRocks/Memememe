@@ -58,8 +58,7 @@ export default class MemeGenerator extends Component {
           <img src={this.state.rndImage} alt="1"/>
           <h2 className="top">{this.state.topText}</h2>
           <h2 className="bottom">{this.state.bottomText}</h2>
-        </div>
-        
+        </div>        
       </div>
     )
   }
